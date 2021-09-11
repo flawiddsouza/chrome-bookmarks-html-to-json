@@ -1,0 +1,22 @@
+{
+    "name": "chrome-bookmarks-html-to-json",
+    "description": "Usage > git clone chrome-bookmarks-to-json > npm install > node app.mjs bookmarks-filename.html",
+    "version": "1.0.0",
+    "main": "bookmarks-parser.mjs",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/flawiddsouza/chrome-bookmarks-html-to-json.git"
+    },
+    "author": "Flawid DSouza",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/flawiddsouza/chrome-bookmarks-html-to-json/issues"
+    },
+    "homepage": "https://github.com/flawiddsouza/chrome-bookmarks-html-to-json#readme",
+    "dependencies": {
+        "html-parser-lite": "github:flawiddsouza/html-parser-lite"
+    },
+    "bin": {
+        "chrome-bookmarks-html-to-json": "cli.mjs"
+    }
+}
